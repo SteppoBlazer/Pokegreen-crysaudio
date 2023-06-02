@@ -1,0 +1,26 @@
+UndergroundPathRoute7_Script:
+	ld a, ROUTE_7
+	ld [wLastMap], a
+	jp EnableAutoTextBoxDrawing
+
+UndergroundPathRoute7_TextPointers:
+	dw UGPathRoute7EntranceUnusedText_5d773
+	dw UGPathRoute7EntranceUnusedText_5d778
+	dw UGPathRoute7EntranceUnusedText_5d77d
+	dw UGPathRoute7EntranceUnusedText_5d782
+
+UGPathRoute7EntranceUnusedText_5d773:
+	text_far _UGPathRoute7EntranceUnusedText_5d773
+	text_end
+
+UGPathRoute7EntranceUnusedText_5d778:
+	text_far _UGPathRoute7EntranceUnusedText_5d778
+	text_end
+
+UGPathRoute7EntranceUnusedText_5d77d:
+	text_far _UGPathRoute7EntranceUnusedText_5d77d
+	text_end
+
+UGPathRoute7EntranceUnusedText_5d782:
+	text_far _UGPathRoute7EntranceUnusedText_5d782
+	text_end
